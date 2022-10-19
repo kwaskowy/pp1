@@ -1,0 +1,6 @@
+height = int(input("Podaj swój wzrost w cm:"))
+weight = int(input("Podaj swoją wagę w kg:"))
+bmi = weight/((height/100)**2)
+print(f"Twoje BMI wynosi {bmi}")
+if 18.5<bmi<24.99 : print("Twoja waga jest prawidłowa") 
+else : print("Twoja waga jest nieprawidłowa")
