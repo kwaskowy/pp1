@@ -1,2 +1,2 @@
 import rangechecker
-rangechecker.zakres(5,80)
+print(rangechecker.zakres(5,80))
