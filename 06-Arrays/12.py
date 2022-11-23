@@ -1,4 +1,5 @@
-arr1 = [ [2,5,4] , [9,0,3] ]
+arr1 = [ [2,5,4] , 
+        [9,0,3] ]
 print(arr1)
 print(f"rows: {len(arr1)}, cols: {len(arr1[0])}")
 print(arr1[0][1])
