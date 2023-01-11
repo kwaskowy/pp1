@@ -1,7 +1,7 @@
 import json
-
-with open("countries.json") as file:
-    data = json.load(file)
-for i in data:
-    for k,v in data.items():
-        print(k,":",v)
+file= open('example.json',"r")
+data = json.load(file)
+file.close()
+for k,v in data.items():
+    print(k,":",v,)
+    
