@@ -8,3 +8,10 @@ class University():
     # object methods (object behaviors)
     def print_name(self):  
         print(self.name)
+    def set_name(self,name):
+        self.name= name
+
+uek= University()
+uek.print_name()
+uek.set_name("MIT")
+uek.print_name()
