@@ -9,3 +9,9 @@ class music():
 
 shape= music("Ed Sheeran","Hearts Don't Break Around Here","Divide","2017")
 print(shape)
+print()
+brkn= music("ZillaKami, Sosmula","EVERYTHING IS BROKEN","CITY MORGUE VOLUME 3: BOTTOM OF THE BARREL","2021")
+print(brkn)
+print()
+stunna= music("$uicideboy$","#1 Stunna","Gray/Grey","2015")
+print(stunna)
