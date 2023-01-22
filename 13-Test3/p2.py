@@ -1,11 +1,13 @@
 def f(arr):
-    wynik=0
+    suma_col= 0
+    suma_wiersz= 0
     for x in range(len(arr)):
         for y in range(len(arr[0])):
-            if (arr[-1][y]//arr[x][y])%(arr[y])!=0:
-                wynik=0
-            else: wynik+=1
-    return wynik==0
+            if x==0:
+                suma_wiersz+=arr[x][y]
+            if y==0:
+                suma_col+=arr[x][y]
+    return suma_col==suma_wiersz
 
 print(f([[1,2,3],
         [2,4,6],
